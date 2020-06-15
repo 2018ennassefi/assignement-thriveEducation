@@ -1,6 +1,6 @@
-# assignement:Thrive-Education
+# Assignement:Thrive-Education
 
-##Getting started
+## Getting started
 
 Clone the repository to your computer
 
