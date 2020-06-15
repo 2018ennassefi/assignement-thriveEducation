@@ -4,7 +4,7 @@
 
 Start by cloning the repository to your computer.
 
-### Preprequistes
+### Prerequisites
 You will need to have *Docker* for this to work.
 
 ### Technical stack
