@@ -35,6 +35,7 @@ The server container is listening on port 5000.
 The client container is listening on port 3000.
 
 ### Initiliazing the database
-To intiliaze the database, simply go to localhost:5000/init.
+You don't need to do this step since the database file is included in the folder.
+However, if you wish to delete that file and create a new database, you can do so by simply going to localhost:5000/init.
 ### Conclusion
 We are done ! You can now see the page with all its content is localhost:3000.
