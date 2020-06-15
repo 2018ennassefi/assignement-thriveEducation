@@ -61,3 +61,6 @@ def sendData():
         result.update(Content.as_dict(content))
     print(result)
     return result
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')

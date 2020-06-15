@@ -1,0 +1,24 @@
+version: '3'
+services:
+  server:
+    build: ./back
+    expose: 
+      - 5000
+    ports:
+      - 5000:5000
+    volumes:
+      - ./back:/user/src/app
+    environment: 
+      - FLASK_ENV=development
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
+  client:
+    build: ./front
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./front/src:/user/src/app/src
+      - ./front/public:/user/src/app/public
+
