@@ -30,7 +30,8 @@ This is necessary due to React requiring an interactive cli, otherwise it will e
 
 ### Ports
 The server container is listening on port 5000.
-the client container is listening on port 3000.
+
+The client container is listening on port 3000.
 
 ### Initiliazing the database
 To intiliaze the database, simply go to localhost:5000/init.
