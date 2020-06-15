@@ -21,10 +21,11 @@ However you will need to run the following commands to run the client container.
 ```
 docker ps -a
 ```
-Get the name of the container ending in -client then run
+Get the name of the client container , it will most likely be  assignement-thriveeducation-master_client then run :
 
 ```
-docker run -it name_of_container
+docker run -it -p 3000:3000 assignement-thriveeducation-master_client
+
 ```
 This is necessary due to React requiring an interactive cli, otherwise it will exit.
 
