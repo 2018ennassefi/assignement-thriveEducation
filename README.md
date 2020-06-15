@@ -2,12 +2,12 @@
 
 ## Getting started
 
-Clone the repository to your computer
+Start by cloning the repository to your computer.
 
 ### Preprequistes
 You will need to have *Docker* for this to work.
 
-###Technical stack
+### Technical stack
 In this project, Sqlite3 was used for the database, SQLAlchemy for the database connexion , Flask for the back and react for the front.
 
 ### Installation
